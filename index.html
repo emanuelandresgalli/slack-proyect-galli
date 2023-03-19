@@ -1,33 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="/styles/style.css" />
     <style>
-        @import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="barra">
-            <div class="barra__logo">
-                <img class="barra__logo--img" src="/imagenes/logo-ucrania.png" alt="" />
-                <a class="barra__logo--text" href="https://slack.com/intl/es-es/">SLACK</a>
-            </div>
-            <div class="barra__menu">
-                <svg width="18" height="12" fill="#fff" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M1.52 2C1.22667 2 0.983333 1.90667 0.79 1.72C0.596667 1.52667 0.5 1.28667 0.5 1C0.5 0.713334 0.596667 0.476667 0.79 0.290001C0.983333 0.0966671 1.22667 0 1.52 0H16.48C16.7733 0 17.0167 0.0966671 17.21 0.290001C17.4033 0.476667 17.5 0.713334 17.5 1C17.5 1.28667 17.4033 1.52667 17.21 1.72C17.0167 1.90667 16.7733 2 16.48 2H1.52ZM1.52 7C1.22667 7 0.983333 6.90667 0.79 6.72C0.596667 6.52667 0.5 6.28667 0.5 6C0.5 5.71333 0.596667 5.47667 0.79 5.29C0.983333 5.09667 1.22667 5 1.52 5H16.48C16.7733 5 17.0167 5.09667 17.21 5.29C17.4033 5.47667 17.5 5.71333 17.5 6C17.5 6.28667 17.4033 6.52667 17.21 6.72C17.0167 6.90667 16.7733 7 16.48 7H1.52ZM1.52 12C1.22667 12 0.983333 11.9067 0.79 11.72C0.596667 11.5267 0.5 11.2867 0.5 11C0.5 10.7133 0.596667 10.4767 0.79 10.29C0.983333 10.0967 1.22667 10 1.52 10H16.48C16.7733 10 17.0167 10.0967 17.21 10.29C17.4033 10.4767 17.5 10.7133 17.5 11C17.5 11.2867 17.4033 11.5267 17.21 11.72C17.0167 11.9067 16.7733 12 16.48 12H1.52Z"
-                        fill="#fff"></path>
-                </svg>
-            </div>
+      <div class="barra">
+        <div class="barra__logo">
+          <img
+            class="barra__logo--img"
+            src="/imagenes/logo-ucrania.png"
+            alt=""
+          />
+          <a class="barra__logo--text" href="https://slack.com/intl/es-es/"
+            >SLACK</a
+          >
         </div>
-    </header>
-</body>
+        <div class="barra__menu">
+          <svg
+            width="18"
+            height="12"
+            fill="#fff"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1.52 2C1.22667 2 0.983333 1.90667 0.79 1.72C0.596667 1.52667 0.5 1.28667 0.5 1C0.5 0.713334 0.596667 0.476667 0.79 0.290001C0.983333 0.0966671 1.22667 0 1.52 0H16.48C16.7733 0 17.0167 0.0966671 17.21 0.290001C17.4033 0.476667 17.5 0.713334 17.5 1C17.5 1.28667 17.4033 1.52667 17.21 1.72C17.0167 1.90667 16.7733 2 16.48 2H1.52ZM1.52 7C1.22667 7 0.983333 6.90667 0.79 6.72C0.596667 6.52667 0.5 6.28667 0.5 6C0.5 5.71333 0.596667 5.47667 0.79 5.29C0.983333 5.09667 1.22667 5 1.52 5H16.48C16.7733 5 17.0167 5.09667 17.21 5.29C17.4033 5.47667 17.5 5.71333 17.5 6C17.5 6.28667 17.4033 6.52667 17.21 6.72C17.0167 6.90667 16.7733 7 16.48 7H1.52ZM1.52 12C1.22667 12 0.983333 11.9067 0.79 11.72C0.596667 11.5267 0.5 11.2867 0.5 11C0.5 10.7133 0.596667 10.4767 0.79 10.29C0.983333 10.0967 1.22667 10 1.52 10H16.48C16.7733 10 17.0167 10.0967 17.21 10.29C17.4033 10.4767 17.5 10.7133 17.5 11C17.5 11.2867 17.4033 11.5267 17.21 11.72C17.0167 11.9067 16.7733 12 16.48 12H1.52Z"
+              fill="#fff"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <div class="register__container">
+        <div class="register__container--box">
+          <h1 class="register__container--title">
+            Un buen trabajo en equipo comienza con una
+            <span class="register__container--span">sede digital</span>
+          </h1>
+          <p class="register__container--parrafo">
+            Reunir a todos tus compañeros, herramientas y comunicación en un
+            mismo lugar te permitirá trabajar de manera más rápida y eficiente
+            que nunca.
+          </p>
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="button__arriba">
+          <a href=""> REGISTRARSE CON CORREO</a>
+        </button>
 
+        <button class="button__abajo">
+          <div class="logo">
+            <svg
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 48 48"
+              class="LgbsSe-Bz112c"
+            >
+              <g>
+                <path
+                  fill="#EA4335"
+                  d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"
+                ></path>
+                <path
+                  fill="#4285F4"
+                  d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"
+                ></path>
+                <path
+                  fill="#FBBC05"
+                  d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"
+                ></path>
+                <path
+                  fill="#34A853"
+                  d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"
+                ></path>
+                <path fill="none" d="M0 0h48v48H0z"></path>
+              </g>
+            </svg>
+          </div>
+          <div class="button__abajo--registrarse">
+            <a class="color__google" href="">REGISTRARSE CON GOOGLE</a>
+          </div>
+        </button>
+      </div>
+      <div class="img__capturas">
+        <img src="/imagenes/img-header.png" alt="imagen anuncios" />
+      </div>
+    </header>
+    <section class="container_empresas">
+      <h1 class="container__empresas--texto">
+        EMPRESAS DE TODO EL MUNDO YA CONFÍAN EN SLACK
+      </h1>
+      <ul class="listado__empresas">
+        <li><img src="/imagenes/logo__empresas1.png" alt="logo airbnb" /></li>
+        <li><img src="/imagenes/logo__empresas2.png" alt="logo nasa" /></li>
+        <li><img src="imagenes/logo__empresas3.png" alt="logo uber" /></li>
+        <li><img src="/imagenes/logo__empresas4.png" alt="" /></li>
+        <li>
+          <img
+            src="/imagenes/logo__empresas5.png"
+            alt="logo the new york times"
+          />
+        </li>
+        <li><img src="/imagenes/logo__empresas6.png" alt="logo etsy" /></li>
+      </ul>
+    </section>
+   
+    <div class="fondo">
+      <img src="/imagenes/img-section-11.png" alt="" />
+    </div>
+  
+    <div class="texto" >
+      <h1 class="texto__titulo">Reúne a tu equipo</h1>
+      <p class="texto__parrafo">
+        Los canales son el corazón del Slack. Son espacios organizados para todo
+        el mundo que contienen todo lo necesario para trabajar. Los canales
+        permiten conectarse entre departamentos, oficinas, zonas horarias e
+        incluso con otras empresas.
+      </p>
+      <a href="">Obtener más informción sobre los canales</a>
+    </div>
+  
+  </body>
 </html>

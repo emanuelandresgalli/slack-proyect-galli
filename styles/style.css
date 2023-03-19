@@ -7,17 +7,15 @@
 @media(max-width: 600px) {
     .header{
         width: 100%;
-        /* margin: 20px; */
-        /* padding: 20px; */
+        height: 100%;
+        background-color:rgb(84, 21, 84) ;
     }
     .barra{
         height: 100px;
-        width: 100%;
-        background-color:rgb(84, 21, 84) ;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0 20px 0 20px;
+        padding: 0 20px;
     }
     .barra__logo{
         display: flex;
@@ -35,4 +33,131 @@
         color: white;
     }
 }
-
+.register__container{
+    padding: 0 4vw;
+}
+.register__container--title{
+    font-family: 'PT Serif', serif;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.0625;
+    letter-spacing: -1.5px;
+    font-size: 2.75rem;
+    max-width: 14em;
+}
+.register__container--parrafo{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.444;
+    letter-spacing: -.2px;
+   font-size: 1rem;
+   font-weight: 400;
+    line-height: 1.444;
+    letter-spacing: -.2px;
+    font-size: 1rem;
+    margin:0.25rem auto 2.5rem;
+   
+}
+.register__container--span{
+    color: #ECB22E;
+}
+.register__container--box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    padding: 0 4vw;
+}
+.button__arriba{
+    background-color: white;
+    color: #611f69;
+    fill: #611f69;
+    box-shadow: inset 0 0 0 1px #611f69;
+    
+    -moz-appearance: none;
+    appearance: none;
+    /* background: 0 0; */
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    font-family:"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.2857;
+    letter-spacing: .8px;
+    font-size: .875rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 19px 40px 20px;
+    display: block;
+    width: 100%;
+    transition: box-shadow 420ms cubic-bezier(.165,.84,.44,1),color 420ms cubic-bezier(.165,.84,.44,1),background 420ms cubic-bezier(.165,.84,.44,1);
+}
+.button__abajo{
+    padding-left: 4rem;
+    display: flex;
+    height: 57px;
+    align-items: center;
+    margin-left: 0;
+    padding-right: 1rem;
+    justify-content: center;
+    background-color: #4285f4;
+    color: #fff;
+    width: 100%;
+     }
+     .color__google{
+        color: #fff;
+     }
+   .logo{
+    height: 25px;
+    background-color: white;
+   }
+   .img__capturas{
+    height: 100%;
+    padding:20px 0 20px 20px ;
+   }
+.container_empresas{
+    background-color: #f4ede4!important;
+    height: 320px;
+}
+.container__empresas--texto{
+    padding: 40px 20px 0px 20px;
+    font-family:'PT Serif', serif; 
+    font-size: medium;
+    text-align: center;
+}
+.listado__empresas{
+    height: 50%;
+    padding: 20px 20px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.fondo{
+    background-color: #f4ede4;
+    height: 400px;
+}
+.texto{
+    background-color: #f4ede4;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.texto__titulo{
+    font-family:'PT Serif', serif;
+    padding: 10px 10px 10px 0;
+}
+.texto__parrafo{
+    font-family:'PT Serif', serif;
+    margin: 15px;
+}
