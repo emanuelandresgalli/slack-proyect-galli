@@ -98,24 +98,29 @@
     transition: box-shadow 420ms cubic-bezier(.165,.84,.44,1),color 420ms cubic-bezier(.165,.84,.44,1),background 420ms cubic-bezier(.165,.84,.44,1);
 }
 .button__abajo{
-    padding-left: 4rem;
     display: flex;
     height: 57px;
-    align-items: center;
     margin-left: 0;
     padding-right: 1rem;
-    justify-content: center;
     background-color: #4285f4;
     color: #fff;
-    width: 100%;
+    width: 360px;
      }
      .color__google{
         color: #fff;
+        width: 100%;
+        padding-left: 70px;
+        padding-top: 15px;
+        display: flex;
+        align-items: center;
      }
-   .logo{
-    height: 25px;
-    background-color: white;
-   }
+     .logo__google{
+        display: flex;
+        justify-content: flex-start;
+        border-radius: 4px;
+        margin: 3px 0 3px 3px;
+        height: 45px;;
+     }
    .img__capturas{
     height: 100%;
     padding:20px 0 20px 20px ;
