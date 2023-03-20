@@ -8,10 +8,13 @@
 }
 
 @media(max-width: 600px) {
-    .header{
+    .header,{
         width: 100%;
         height: 100%;
         background-color:rgb(84, 21, 84) ;
+    }
+    main{
+        width: 390px;
     }
     .background__color{
         background-color: #f4ede4;
@@ -23,8 +26,6 @@
         justify-content: space-between;
         padding: 0 20px;
         background-color: rgb(84, 21, 84);
-        /* position: fixed;
-        z-index: 1000; */
         width: 100% ;
     }
     .barra__logo{
@@ -35,6 +36,7 @@
     .barra__logo--img{
         height: 35px;
         border-color:rgb(84, 21, 84)  ;
+        padding-left: 20px;
     }
     .barra__logo--text{
         color: white;
@@ -55,7 +57,7 @@
 }
 .register__container{
     padding: 0 4vw;
-    width: 100%;
+    width: 400px;
     background-color: rgb(84, 21, 84);;
 }
 .register__container--title{
@@ -67,7 +69,7 @@
     letter-spacing: -1.5px;
     font-size: 2.75rem;
     max-width: 14em;
-    padding: 10px;
+    padding: 10px 10px 10px 30px;
 }
 .register__container--parrafo{
     color: white;
@@ -81,7 +83,7 @@
     letter-spacing: -.2px;
     font-size: 1rem;
     margin:0.25rem auto 2.5rem;
-    padding:10px;
+    padding:10px 10px 10px 30px;
    
 }
 .register__container--span{
@@ -98,28 +100,30 @@
     margin: 0 10px 0 10px;
     padding: 0 4vw;
     background-color: rgb(84, 21, 84);
-    width: 100%;
+    width: 400px;;
 }
 .button__arriba{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: bold;;
+    font-weight: bold;
     height: 57px;
-    margin-left: 0;
-    padding-right: 1rem;
+    margin-left: 20px;
+    margin-bottom: 8px;
+    /* padding-right: 1rem; */
     background-color: white;
     color: rgb(84, 21, 84);
-    width: 360px;
+    width: 90%;
+    border-radius: 4px;
 }
 .button__abajo{
     display: flex;
     height: 57px;
-    margin-left: 0;
-    padding-right: 1rem;
+    margin-left: 20px;
     background-color: #4285f4;
     color: #fff;
-    width: 360px;
+    width: 90%;
+    border-radius: 4px;
      }
      .color__google{
         color: #fff;
@@ -140,23 +144,27 @@
     height: 100%;
     padding:20px 0 20px 20px ;
     background-color: rgb(84, 21, 84);
-    width: 100%;
+    width: 420px;
    }
 .container_empresas{
     background-color: #f4ede4;
     height: 320px;
-    width: 400px;
+    width: 425px;
+}
+.container__empresas--titulo{
+    padding: 20px;
 }
 .container__empresas--texto{
     padding: 40px 20px 0px 20px;
     font-family:'PT Serif', serif; 
     font-size: medium;
     text-align: center;
+    width: 95%;
     
 }
 .listado__empresas{
     height: 50%;
-    padding: 20px 20px 0 20px;
+    padding: 20px 20px 0 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,47 +181,65 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     width: 400px;
+    margin-left: 30px;
     
 }
 .texto{
     background-color: #f4ede4;
+    margin: 20px;
+    width: 420px;
+}
+.box{
+    margin: 30px;
 }
 .texto__titulo{
     font-family:'PT Serif', serif;
     padding: 30px 10px 15px 15px;
+    margin-left: 30px;
 }
 .texto__parrafo{
     font-family:'PT Serif', serif;
-    margin: 0 15px 20px 15px;
+    margin: 0 15px 20px 50px;
+    padding-right: 7px;
 }
 .vinculo{
     color: #6898e4;
     font-family:'PT Serif', serif;
     font-size: medium;
-    margin: 0 15px 0px 15px; /*no logro separar del margen izq al ankor*/
+    margin: 0 15px 40px 50px; 
  }
  .captura__dos--box{
     background-color:#f4ede4; 
-    width: 410px;
+    width: 430px;
  }
- .captura__cuatro--img{
+ .captura__dos{
     width: 100%;
-    margin-bottom: -10px;
+    margin-bottom: -25px;
+ }
+ .captura__tres{
+    width: 430px;
+    height: 100%;
+    margin-bottom: -20px;
+    margin-top: -20px;
  }
  .captura__tres--img{
     width: 100%;
     margin-bottom: -10px;
  }
- .captura__dos, .captura__tres, .captura__cuatro{
-    width: 410px;
-    height: 100%;
+ .captura__cuatro{
+    width: 430px;
+ }
+ .captura__cuatro--img{
+    width: 100%;
+    margin-bottom: -25px;
+    margin-top: -20px;
  }
  .button__arriba--2{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 57px;
-    margin: 10px 10px 10px 23px;
+    margin: 10px 10px 10px 18px;
     background-color: #611f69;
     color: white;
     width: 360px;
@@ -228,7 +254,7 @@
         justify-content: center;
         align-items: center;
         height: 57px;
-        margin: 10px 10px 10px 23px;
+        margin: 10px 10px 10px 18px;
         background-color: white;
         color:#611f69;
         width: 360px;
@@ -243,22 +269,37 @@
 .porcentajes__num{
     font-family:'PT Serif', serif;
     color:#611f69;
+    display: flex;
+    justify-content: center;
     text-align: center;
     padding: 40px 40px 20px 40px;;
     font-weight: 700;
+    width: 100%;
+}
+.porcentajes__text--box{
+    width: 430px;
 }
 .porcentajes__text{
     font-family:'PT Serif', serif;
     text-align: center;
+    display: flex;
+    justify-content: center;
     font-size: 13px;
-    padding: 0 105px 0px 105px;
+    padding: 0 20px 0px 40px;
+    width: 90%;
+    
+    
+    
+    
 }
 .video{
     height: 200px;
     border-top-right-radius: 200px;
     border-bottom-right-radius: 200px;
     margin-right: 20px;
-    width: 97%;
+    width: 95%;
+    padding-left: 30px;
+    
 }
 .box__texto{
     font-family:'PT Serif', serif; 
@@ -266,35 +307,39 @@
 .box__header{
     font-weight: 400;
     font-size: larger;
+    margin-left: 30px;
 }
 .box__header, .box__enlace1, .box__footer{
     padding: 20px 20px 20px 20px;
 }
 .box__autor{
     padding: 10px 20px 2px 20px;
+    margin-left: 30px;
 }
 .box__descripcion{
     padding: 0 20px 20px 20px;
+    margin-left: 30px;
 } 
 .box__enlace1{
-    margin: 20px 20px 20px 0px;
+    margin: 20px 20px 20px 30px;
     color: #6898e4;
 }
 .box__footer{
     font-size: small;
     color: dimgray;
+    margin-left: 30px;
 }
 .tarjeta__titulo{
     background-color: #f4ede4;
     text-align: center;
     font-size:x-large; ;
-    padding: 40px 20px 15px 20px;
+    padding: 40px 20px 15px 40px;
     width: 95%;
 }
 .container__tarjeta{
     background-color: #f4ede4;
-    padding: 20px;
-    width: 95%;
+    padding: 20px 20px 20px 30px;
+    width: 100%;
 }
 .tarjeta{
     background-color: white;
@@ -304,10 +349,6 @@
 .img__tarjeta{
 width: 70%;
 padding: 20px 20px 20px 43px;
-/* padding: 10px;
-display: flex; */
-/* justify-content: center; */
-
 }
 .tarjeta__parrafo, .tarjeta__h2{
     padding: 20px 20px 10px 20px;
@@ -325,12 +366,13 @@ display: flex; */
 .contenedor__botones{
     background-color:#4a154b;
     height: 412px;
-    width: 410px;
+    width: 430px;
     clip-path: ellipse(105% 100% at center top);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 12px;
 }
 .contenedor__texto{
     color:white;
@@ -387,9 +429,13 @@ display: flex; */
     gap: 1rem;
     margin-top: 4vh;
     margin-bottom: 15px;
+    width: 100%;
 }   
 .box__lista{
+    width: 90%;
     padding: 0 4vh;
+    margin-left: 20px;
+    margin-right: 0px;
 }
 .box__lista--1 li{
     color: #000;
@@ -430,7 +476,6 @@ display: flex; */
 .lista__redes{
     display: flex;
     justify-content: space-between;
-    /* padding: 20px; */
 }
 .footer{
     height: 55px;
@@ -452,3 +497,6 @@ display: flex; */
 .mayor__abajo{
     
 }
+
+
+
