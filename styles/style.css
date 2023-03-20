@@ -6,11 +6,15 @@
     list-style: none;
     text-decoration: none;
 }
+
 @media(max-width: 600px) {
     .header{
         width: 100%;
         height: 100%;
         background-color:rgb(84, 21, 84) ;
+    }
+    .background__color{
+        background-color: #f4ede4;
     }
     .barra{
         height: 100px;
@@ -119,7 +123,6 @@
      }
      .color__google{
         color: #fff;
-        /* width: 100%; */
         padding-left: 70px;
         padding-top: 15px;
         display: flex;
@@ -140,7 +143,7 @@
     width: 100%;
    }
 .container_empresas{
-    background-color: #f4ede4!important;
+    background-color: #f4ede4;
     height: 320px;
     width: 400px;
 }
@@ -172,6 +175,9 @@
     width: 400px;
     
 }
+.texto{
+    background-color: #f4ede4;
+}
 .texto__titulo{
     font-family:'PT Serif', serif;
     padding: 30px 10px 15px 15px;
@@ -184,7 +190,19 @@
     color: #6898e4;
     font-family:'PT Serif', serif;
     font-size: medium;
-    margin: 0 15px 20px 15px; /*no logro separar del margen izq al ankor*/
+    margin: 0 15px 0px 15px; /*no logro separar del margen izq al ankor*/
+ }
+ .captura__dos--box{
+    background-color:#f4ede4; 
+    width: 410px;
+ }
+ .captura__cuatro--img{
+    width: 100%;
+    margin-bottom: -10px;
+ }
+ .captura__tres--img{
+    width: 100%;
+    margin-bottom: -10px;
  }
  .captura__dos, .captura__tres, .captura__cuatro{
     width: 410px;
@@ -195,7 +213,7 @@
     justify-content: center;
     align-items: center;
     height: 57px;
-    margin: 10px;
+    margin: 10px 10px 10px 23px;
     background-color: #611f69;
     color: white;
     width: 360px;
@@ -210,7 +228,7 @@
         justify-content: center;
         align-items: center;
         height: 57px;
-        margin: 10px;
+        margin: 10px 10px 10px 23px;
         background-color: white;
         color:#611f69;
         width: 360px;
@@ -409,4 +427,28 @@ display: flex; */
 .enlace__final{
     color: #4285f4;
 }
-
+.lista__redes{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+}
+.footer{
+    height: 55px;
+    margin-bottom: 20px;
+}
+.footer__texto{
+    padding: 10px 3px 30px 10px;
+    color:  dimgray ;
+}
+.simbolo__global{
+    height: 10px;
+    width: 10px;
+}
+.cambiar__region img{
+    justify-content: center;
+    height: 10px;
+    width: 10px;
+}
+.mayor__abajo{
+    
+}

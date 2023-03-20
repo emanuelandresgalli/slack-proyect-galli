@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="barra">
+        <div class="barra__logo">
+          <img
+            class="barra__logo--img"
+            src="/imagenes/logo-ucrania.png"
+            alt=""
+          />
+          <a class="barra__logo--text" href="https://slack.com/intl/es-es/"
+            >Slack</a
+          >
+        </div>
+        <div class="barra__menu">
+          <h4 class="menu__hamburguesa">☰</h4>
+        </div>
+      </div>
+      <div class="register__container">
+        <div class="register__container--box">
+          <h1 class="register__container--title">
+            Un buen trabajo en equipo comienza con una
+            <span class="register__container--span">sede digital</span>
+          </h1>
+          <p class="register__container--parrafo">
+            Reunir a todos tus compañeros, herramientas y comunicación en un
+            mismo lugar te permitirá trabajar de manera más rápida y eficiente
+            que nunca.
+          </p>
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="button__arriba">
+          <a href=""> REGISTRARSE CON CORREO</a>
+        </button>
+
+        <button class="button__abajo">
+          <img
+            class="logo__google"
+            src="/imagenes/logo__google.png"
+            alt="logo google"
+          />
+          <div class="button__abajo--registrarse">
+            <a class="color__google" href="">REGISTRARSE CON GOOGLE</a>
+          </div>
+        </button>
+      </div>
+      <div class="img__capturas">
+        <img src="/imagenes/img-header.png" alt="imagen anuncios" />
+      </div>
+    </header>
+    <section class="container_empresas">
+      <h1 class="container__empresas--texto">
+        EMPRESAS DE TODO EL MUNDO YA CONFÍAN EN SLACK
+      </h1>
+      <ul class="listado__empresas">
+        <li><img src="/imagenes/logo__empresas1.png" alt="logo airbnb" /></li>
+        <li><img src="/imagenes/logo__empresas2.png" alt="logo nasa" /></li>
+        <li><img src="imagenes/logo__empresas3.png" alt="logo uber" /></li>
+        <li><img src="/imagenes/logo__empresas4.png" alt="" /></li>
+        <li>
+          <img
+            src="/imagenes/logo__empresas5.png"
+            alt="logo the new york times"
+          />
+        </li>
+        <li><img src="/imagenes/logo__empresas6.png" alt="logo etsy" /></li>
+      </ul>
+    </section>
+    <div class="captura__dos--box">
+    <img class="captura__dos" src="/imagenes/img-section-1.png" alt="" />
+  </div>
+
+    <div class="texto">
+      <h1 class="texto__titulo">Reúne a tu equipo</h1>
+      <p class="texto__parrafo">
+        Los canales son el corazón del Slack. Son espacios organizados para todo
+        el mundo que contienen todo lo necesario para trabajar. Los canales
+        permiten conectarse entre departamentos, oficinas, zonas horarias e
+        incluso con otras empresas.
+      </p>
+      <a href="vinculo">Obtener más información sobre los canales</a>
+    </div>
+
+    <img class="captura__tres" src="/imagenes/img-section-2.png" alt="" />
+
+    <div class="texto">
+      <h1 class="texto__titulo">Selecciona como quieres trabajar</h1>
+      <p class="texto__parrafo">
+        Slack te otorga la flexibilidad para trabajar cuando, donde y como tú
+        quieras. Puedes chatear, enviar clips de audio y vídeo o unirte a una
+        junta para discutir asuntos en directo.
+      </p>
+      <a href="vinculo"
+        >Obtener más información acerca de la comunicación flexible</a
+      >
+    </div>
+
+    <img class="captura__cuatro" src="/imagenes/img-section-3.png" alt="" />
+
+    <div class="texto">
+      <h1 class="texto__titulo">
+        Agiliza el trabajo con todas las herramientas en un mismo lugar
+      </h1>
+      <p class="texto__parrafo">
+        Conectar tus otras aplicaciones de trabajo con Slack te permite ahorrar
+        tiempo al no tener que cambiar entre pestañas. Además, con tus
+        herramientas eficaces como el creador de flujos de trabajo, puedes
+        automatizar tareas rutinarias.
+      </p>
+      <a href="vinculo ">Más información sobre la plataforma de Slack</a>
+    </div>
