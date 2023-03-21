@@ -24,3 +24,19 @@
                 <path fill="none" d="M0 0h48v48H0z"></path>
               </g>
             </svg>
+
+Selecciona como quieres trabajar 
+
+ Slack te otorga la flexibilidad para trabajar cuando, donde y como tú quieras. Puedes chatear, enviar clips de audio y vídeo o unirte a una junta para discutir asuntos en directo.
+
+Obtener más información acerca de la comunicación flexible
+
+<div class="texto">
+    <h1 class="texto__titulo">Selecciona como quieres trabajar </h1>
+    <p class="texto__parrafo">
+      Slack te otorga la flexibilidad para trabajar cuando, donde y como tú quieras. Puedes chatear, enviar clips de audio y vídeo o unirte a una junta para discutir asuntos en directo.
+    </p>
+    <a href="vinculo">Obtener más información acerca de la comunicación flexible</a>
+  </div>
+
+<label   for="menu">☰</label>

@@ -122,3 +122,6 @@
       </p>
       <a href="vinculo ">Más información sobre la plataforma de Slack</a>
     </div>
+
+<div class="cambiar__region"> 
+ <img class="mayor__abajo" src="/imagenes/signo__mayor-abajo.png"> 
